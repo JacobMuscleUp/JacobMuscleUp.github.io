@@ -1,0 +1,13 @@
+.Skill {
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.Skill-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.SkillPage p{
+    font-size: 0.73em;
+ }
