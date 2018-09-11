@@ -9,13 +9,13 @@ class ContactPage extends React.Component {
         return (
             <div className="ContactPage-container">
                 <div className='ContactPage-item'>
-                    <a href="mailto:charleschanlok@gmail.com" rel="noopener noreferrer" target="_blank" >
-                        <FontAwesomeIcon icon={faEnvelope} size="4x" /><p>charleschanlok@gmail.com</p>
+                    <a href="mailto:jacobtheperson123@hotmail.com" rel="noopener noreferrer" target="_blank" >
+                        <FontAwesomeIcon icon={faEnvelope} size="4x" /><p>jacobtheperson123@hotmail.com</p>
                     </a>
                 </div>
                 <div className='Contact-item'>
-                    <a href="https://github.com/charleschanlok" rel="noopener noreferrer" target="_blank" >
-                        <FontAwesomeIcon icon={faGithub} size="4x" /><p>https://github.com/charleschanlok</p>
+                    <a href="https://github.com/JacobMuscleUp" rel="noopener noreferrer" target="_blank" >
+                        <FontAwesomeIcon icon={faGithub} size="4x" /><p>github.com/JacobMuscleUp</p>
                     </a>
                 </div>
             </div>
