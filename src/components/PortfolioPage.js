@@ -16,10 +16,10 @@ class PortfolioPage extends React.Component {
                     <CardImg top width="100%" 
                         src="https://raw.githubusercontent.com/JacobMuscleUp/CCKIT_STL/master/Screenshots/Metaprogramming.png" 
                         alt="The image is currently unavailable because Github is down" />
-                    <CardBody>
+                    <CardBody className="CardBody">
                         <CardTitle>My implementation of C++ Standard Template Library</CardTitle>
                         <CardSubtitle>Technologies used:</CardSubtitle>
-                        <CardText>C++</CardText>
+                        <CardText>C++, Metaprogramming</CardText>
                         <a href="https://github.com/JacobMuscleUp/CCKIT_STL" rel="noopener noreferrer" target="_blank" >
                             <Button>Source code</Button>
                         </a>
@@ -29,7 +29,7 @@ class PortfolioPage extends React.Component {
                     <CardImg top width="100%" 
                         src="https://raw.githubusercontent.com/JacobMuscleUp/RenderingEngineOpenGL/master/Screenshots/RenderingEngineDemo.gif" 
                         alt="The image is currently unavailable because Github is down" />
-                    <CardBody>
+                    <CardBody className="CardBody">
                         <CardTitle>RenderingEngineOpenGL</CardTitle>
                         <CardSubtitle>Technologies used:</CardSubtitle>
                         <CardText>C++, OpenGL, GLSL, GLM</CardText>
@@ -42,7 +42,7 @@ class PortfolioPage extends React.Component {
                     <CardImg top width="100%" 
                         src={imgPortfolioFastFileExplorer} 
                         alt="The image is currently unavailable" />
-                    <CardBody>
+                    <CardBody className="CardBody">
                         <CardTitle>Android App: File Explorer</CardTitle>
                         <CardSubtitle>Technologies used:</CardSubtitle>
                         <CardText>Java, Android SDK</CardText>
@@ -55,11 +55,24 @@ class PortfolioPage extends React.Component {
                     <CardImg top width="100%" 
                         src="https://raw.githubusercontent.com/JacobMuscleUp/DocumentationGenerator/master/Screenshots/DocGen0.PNG" 
                         alt="The image is currently unavailable because Github is down" />
-                    <CardBody>
+                    <CardBody className="CardBody">
                         <CardTitle>Documentation Generator</CardTitle>
                         <CardSubtitle>Technologies used:</CardSubtitle>
                         <CardText>Javascript, Node, gulp.js, Batch, HTML5, CSS3</CardText>
                         <a href="https://github.com/JacobMuscleUp/DocumentationGenerator" rel="noopener noreferrer" target="_blank" >
+                            <Button>Source code</Button>
+                        </a>
+                    </CardBody>
+                </Card>
+				<Card>
+                    <CardImg top width="100%" 
+                        src="https://raw.githubusercontent.com/JacobMuscleUp/ProcGenAI/master/Screenshots/ProcGenAIDemo.gif" 
+                        alt="The image is currently unavailable because Github is down" />
+                    <CardBody className="CardBody">
+                        <CardTitle>AI&ProcGen</CardTitle>
+                        <CardSubtitle>Technologies used:</CardSubtitle>
+                        <CardText>C#, Unity, Behavior Tree, Pathfinding, Procedural Generation</CardText>
+                        <a href="https://github.com/JacobMuscleUp/ProcGenAI" rel="noopener noreferrer" target="_blank" >
                             <Button>Source code</Button>
                         </a>
                     </CardBody>

@@ -7,6 +7,7 @@ import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
 import SkillPage from './components/SkillPage';
 import PortfolioPage from './components/PortfolioPage';
+import ErrorPage from './components/ErrorPage';
 
 class App extends React.Component {
   render() {
@@ -17,16 +18,16 @@ class App extends React.Component {
             <NavbarBrand href="/">Jacob Chan</NavbarBrand>
             <Collapse isOpen={true} navbar>
               <Nav className="ml-auto" navbar>
-                <Link className="Navbar-padding" to="/">
+                <Link className="Navbar" to="/">
                   About
                 </Link>
-                <Link className="Navbar-padding" to="/contact">
+                <Link className="Navbar" to="/contact">
                   Contact
                 </Link>
-                <Link className="Navbar-padding" to="/skill">
+                <Link className="Navbar" to="/skill">
                   Skill
                 </Link>
-                <Link className="Navbar-padding" to="/portfolio">
+                <Link className="Navbar" to="/portfolio">
                   Portfolio
                 </Link>
               </Nav>
@@ -37,6 +38,7 @@ class App extends React.Component {
             <Route exact path="/contact" component={ContactPage} />
             <Route exact path="/skill" component={SkillPage} />
             <Route exact path="/portfolio" component={PortfolioPage} />
+            <Route component={ErrorPage} />
           </Switch>
         </div>
       </Router>
