@@ -26,5 +26,5 @@
 	"predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://jacobmuscleup.github.io/JacobMuscleUp.github.io/"
+  "homepage": "https://jacobmuscleup.github.io/"
 }
