@@ -17,7 +17,7 @@ class App extends React.Component {
             <NavbarBrand href="/">Jacob Chan</NavbarBrand>
             <Collapse isOpen={true} navbar>
               <Nav className="ml-auto" navbar>
-                <Link className="Navbar-padding" to="/about">
+                <Link className="Navbar-padding" to="/">
                   About
                 </Link>
                 <Link className="Navbar-padding" to="/contact">
@@ -33,7 +33,7 @@ class App extends React.Component {
             </Collapse>
           </Navbar>
           <Switch>
-            <Route exact path="/about" component={AboutPage} />
+            <Route exact path="/" component={AboutPage} />
             <Route exact path="/contact" component={ContactPage} />
             <Route exact path="/skill" component={SkillPage} />
             <Route exact path="/portfolio" component={PortfolioPage} />
