@@ -27,6 +27,10 @@ import imgSkillPython from "../assets/img/skill/python.png";
 import imgSkillBatch from "../assets/img/skill/batch.png";
 import imgSkillBootstrap from "../assets/img/skill/bootstrap.jpg";
 import imgSkillIntel from "../assets/img/skill/intel.png";
+import imgSkillVirtualbox from "../assets/img/skill/virtualbox.png";
+import imgSkillWindows from "../assets/img/skill/windows.png";
+import imgSkillLinux from "../assets/img/skill/linux.jpg";
+import imgSkillLibvlc from "../assets/img/skill/libvlc.png";
 
 class SkillPage extends React.Component {
     render() {
@@ -211,6 +215,35 @@ class SkillPage extends React.Component {
                                         src={imgSkillIntel}
                                         alt="intel" />
                                     <p>Intel x86 Assembly</p>
+                                </Col>
+
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillWindows}
+                                        alt="windows" />
+                                    <p>Windows</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillLinux}
+                                        alt="linux" />
+                                    <p>Linux</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillVirtualbox}
+                                        alt="virtualbox" />
+                                    <p>Oracle VM VirtualBox</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillLibvlc}
+                                        alt="libvlc" />
+                                    <p>VideoLAN libVLC</p>
                                 </Col>
                             </Row>
                         </Container>
