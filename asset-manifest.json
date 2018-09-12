@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.37351344.css",
   "main.css.map": "static/css/main.37351344.css.map",
-  "main.js": "static/js/main.31909925.js",
-  "main.js.map": "static/js/main.31909925.js.map",
+  "main.js": "static/js/main.d27396f5.js",
+  "main.js.map": "static/js/main.d27396f5.js.map",
   "static\\media\\404.png": "static/media/404.0de064c7.png",
   "static\\media\\about.jpeg": "static/media/about.c3a398cf.jpeg",
   "static\\media\\android.jpg": "static/media/android.4714a65d.jpg",
@@ -17,10 +17,12 @@
   "static\\media\\java.png": "static/media/java.1faf0791.png",
   "static\\media\\javascript.png": "static/media/javascript.33eae4f2.png",
   "static\\media\\jquery.jpg": "static/media/jquery.3ce95c39.jpg",
+  "static\\media\\libvlc.png": "static/media/libvlc.8447311c.png",
   "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg",
   "static\\media\\mysql.jpg": "static/media/mysql.5fc2eb80.jpg",
   "static\\media\\nodejs.jpg": "static/media/nodejs.a83f1a12.jpg",
   "static\\media\\python.png": "static/media/python.a1c11146.png",
   "static\\media\\reactjs.png": "static/media/reactjs.4af927e2.png",
-  "static\\media\\unity.png": "static/media/unity.81fbf07b.png"
+  "static\\media\\unity.png": "static/media/unity.81fbf07b.png",
+  "static\\media\\virtualbox.png": "static/media/virtualbox.0e9e8c03.png"
 }
