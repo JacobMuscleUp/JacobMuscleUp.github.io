@@ -31,6 +31,7 @@ import imgSkillVirtualbox from "../assets/img/skill/virtualbox.png";
 import imgSkillWindows from "../assets/img/skill/windows.png";
 import imgSkillLinux from "../assets/img/skill/linux.jpg";
 import imgSkillLibvlc from "../assets/img/skill/libvlc.png";
+import imgSkillRest from "../assets/img/skill/rest.png";
 
 class SkillPage extends React.Component {
     render() {
@@ -244,6 +245,13 @@ class SkillPage extends React.Component {
                                         src={imgSkillLibvlc}
                                         alt="libvlc" />
                                     <p>VideoLAN libVLC</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillRest}
+                                        alt="rest" />
+                                    <p>RESTful API</p>
                                 </Col>
                             </Row>
                         </Container>
