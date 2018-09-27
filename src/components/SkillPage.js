@@ -32,6 +32,15 @@ import imgSkillWindows from "../assets/img/skill/windows.png";
 import imgSkillLinux from "../assets/img/skill/linux.jpg";
 import imgSkillLibvlc from "../assets/img/skill/libvlc.png";
 import imgSkillRest from "../assets/img/skill/rest.png";
+import imgSkillExpress from "../assets/img/skill/express.png";
+import imgSkillKnex from "../assets/img/skill/knex.png";
+import imgSkillPostgres from "../assets/img/skill/postgres.png";
+import imgSkillTypescript from "../assets/img/skill/typescript.png";
+import imgSkillBcrypt from "../assets/img/skill/bcrypt.jpg";
+import imgSkillClarifai from "../assets/img/skill/clarifai.png";
+
+import imgSkillHeroku from "../assets/img/skill/heroku.png";
+import imgSkillPostman from "../assets/img/skill/postman.png";
 
 class SkillPage extends React.Component {
     render() {
@@ -252,6 +261,62 @@ class SkillPage extends React.Component {
                                         src={imgSkillRest}
                                         alt="rest" />
                                     <p>RESTful API</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillExpress}
+                                        alt="express" />
+                                    <p>Express</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillKnex}
+                                        alt="knex" />
+                                    <p>Knex</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillPostgres}
+                                        alt="postgres" />
+                                    <p>PostgreSQL</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillTypescript}
+                                        alt="typescript" />
+                                    <p>Typescript</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillBcrypt}
+                                        alt="bcrypt" />
+                                    <p>Bcrypt</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillClarifai}
+                                        alt="clarifai" />
+                                    <p>Clarifai API</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillHeroku}
+                                        alt="heroku" />
+                                    <p>Heroku</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillPostman}
+                                        alt="postman" />
+                                    <p>Postman</p>
                                 </Col>
                             </Row>
                         </Container>

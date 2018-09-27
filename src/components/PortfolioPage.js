@@ -27,6 +27,28 @@ class PortfolioPage extends React.Component {
                 </Card>
                 <Card>
                     <CardImg top width="100%" 
+                        src="https://github.com/JacobMuscleUp/jacob-face-detection-frontend/blob/master/screenshots/face-detection-demo.png?raw=true" 
+                        alt="The image is currently unavailable because Github is down" />
+                    <CardBody className="CardBody">
+                        <CardTitle>Face detection web app with account management</CardTitle>
+                        <CardSubtitle>Technologies used:</CardSubtitle>
+                        <CardText>
+                            Node,REST,React,Express,Knex,node-postgres,Typescript,bcrypt,
+                            Clarifai,Reactstrap,tachyons,Heroku,PostgreSQL,Postman
+                        </CardText>
+                        <a href="https://jacob-face-detection.herokuapp.com/" rel="noopener noreferrer" target="_blank" >
+                            <Button>Online Demo</Button>
+                        </a>
+                        <a href="https://github.com/JacobMuscleUp/jacob-face-detection-backend" rel="noopener noreferrer" target="_blank" >
+                            <Button>Backend Source code</Button>
+                        </a>
+                        <a href="https://github.com/JacobMuscleUp/jacob-face-detection-frontend" rel="noopener noreferrer" target="_blank" >
+                            <Button>Frontend Source code</Button>
+                        </a>
+                    </CardBody>
+                </Card>
+                <Card>
+                    <CardImg top width="100%" 
                         src="https://raw.githubusercontent.com/JacobMuscleUp/RenderingEngineOpenGL/master/Screenshots/RenderingEngineDemo.gif" 
                         alt="The image is currently unavailable because Github is down" />
                     <CardBody className="CardBody">
