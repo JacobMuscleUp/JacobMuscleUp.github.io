@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.37351344.css",
   "main.css.map": "static/css/main.37351344.css.map",
-  "main.js": "static/js/main.0409b3a6.js",
-  "main.js.map": "static/js/main.0409b3a6.js.map",
+  "main.js": "static/js/main.9221ac27.js",
+  "main.js.map": "static/js/main.9221ac27.js.map",
   "static\\media\\404.png": "static/media/404.0de064c7.png",
   "static\\media\\about.jpeg": "static/media/about.c3a398cf.jpeg",
   "static\\media\\android.jpg": "static/media/android.4714a65d.jpg",
@@ -30,6 +30,7 @@
   "static\\media\\python.png": "static/media/python.a1c11146.png",
   "static\\media\\reactjs.png": "static/media/reactjs.4af927e2.png",
   "static\\media\\rest.png": "static/media/rest.7ef86246.png",
+  "static\\media\\socketio.png": "static/media/socketio.bc989e9a.png",
   "static\\media\\typescript.png": "static/media/typescript.9a7e9b3a.png",
   "static\\media\\unity.png": "static/media/unity.81fbf07b.png",
   "static\\media\\virtualbox.png": "static/media/virtualbox.0e9e8c03.png"
