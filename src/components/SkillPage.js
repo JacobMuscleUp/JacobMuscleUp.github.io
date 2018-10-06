@@ -38,9 +38,10 @@ import imgSkillPostgres from "../assets/img/skill/postgres.png";
 import imgSkillTypescript from "../assets/img/skill/typescript.png";
 import imgSkillBcrypt from "../assets/img/skill/bcrypt.jpg";
 import imgSkillClarifai from "../assets/img/skill/clarifai.png";
-
 import imgSkillHeroku from "../assets/img/skill/heroku.png";
 import imgSkillPostman from "../assets/img/skill/postman.png";
+import imgSkillSocketio from "../assets/img/skill/socketio.png";
+import imgSkillMongodb from "../assets/img/skill/mongodb.png";
 
 class SkillPage extends React.Component {
     render() {
@@ -317,6 +318,20 @@ class SkillPage extends React.Component {
                                         src={imgSkillPostman}
                                         alt="postman" />
                                     <p>Postman</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillSocketio}
+                                        alt="socketio" />
+                                    <p>Socket.io</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillMongodb}
+                                        alt="mongodb" />
+                                    <p>MongoDB</p>
                                 </Col>
                             </Row>
                         </Container>

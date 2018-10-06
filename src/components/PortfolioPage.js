@@ -49,6 +49,24 @@ class PortfolioPage extends React.Component {
                 </Card>
                 <Card>
                     <CardImg top width="100%" 
+                        src="https://github.com/JacobMuscleUp/jacob-chatroom/blob/master/screenshots/jacob-chatroom-demo.png?raw=true" 
+                        alt="The image is currently unavailable because Github is down" />
+                    <CardBody className="CardBody">
+                        <CardTitle>Online chat app with history stored in database</CardTitle>
+                        <CardSubtitle>Technologies used:</CardSubtitle>
+                        <CardText>
+                            Node,Express,Heroku,Socket.io.MongoDB
+                        </CardText>
+                        <a href="https://jacob-chatroom-app.herokuapp.com/" rel="noopener noreferrer" target="_blank" >
+                            <Button>Online Demo</Button>
+                        </a>
+                        <a href="https://github.com/JacobMuscleUp/jacob-chatroom" rel="noopener noreferrer" target="_blank" >
+                            <Button>Source code</Button>
+                        </a>
+                    </CardBody>
+                </Card>
+                <Card>
+                    <CardImg top width="100%" 
                         src="https://raw.githubusercontent.com/JacobMuscleUp/RenderingEngineOpenGL/master/Screenshots/RenderingEngineDemo.gif" 
                         alt="The image is currently unavailable because Github is down" />
                     <CardBody className="CardBody">
