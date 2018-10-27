@@ -49,6 +49,24 @@ class PortfolioPage extends React.Component {
                 </Card>
                 <Card>
                     <CardImg top width="100%" 
+                        src="https://github.com/JacobMuscleUp/jacob-forum/blob/master/screenshots/jacob-forum.png?raw=true" 
+                        alt="The image is currently unavailable because Github is down" />
+                    <CardBody className="CardBody">
+                        <CardTitle>Forum app with account management</CardTitle>
+                        <CardSubtitle>Technologies used:</CardSubtitle>
+                        <CardText>
+                            CRUD API,Laravel,PHP,Vue.js,Javascript,Heroku,MySQL,Postman
+                        </CardText>
+                        <a href="https://jacob-forum.herokuapp.com/" rel="noopener noreferrer" target="_blank" >
+                            <Button>Online Demo</Button>
+                        </a>
+                        <a href="https://github.com/JacobMuscleUp/jacob-forum" rel="noopener noreferrer" target="_blank" >
+                            <Button>Source code</Button>
+                        </a>
+                    </CardBody>
+                </Card>
+                <Card>
+                    <CardImg top width="100%" 
                         src="https://github.com/JacobMuscleUp/jacob-chatroom/blob/master/screenshots/jacob-chatroom-demo.png?raw=true" 
                         alt="The image is currently unavailable because Github is down" />
                     <CardBody className="CardBody">

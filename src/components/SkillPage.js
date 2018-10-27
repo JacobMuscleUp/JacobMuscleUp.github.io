@@ -42,6 +42,8 @@ import imgSkillHeroku from "../assets/img/skill/heroku.png";
 import imgSkillPostman from "../assets/img/skill/postman.png";
 import imgSkillSocketio from "../assets/img/skill/socketio.png";
 import imgSkillMongodb from "../assets/img/skill/mongodb.png";
+import imgSkillLaravel from "../assets/img/skill/laravel.png";
+import imgSkillVuejs from "../assets/img/skill/vuejs.png";
 
 class SkillPage extends React.Component {
     render() {
@@ -332,6 +334,20 @@ class SkillPage extends React.Component {
                                         src={imgSkillMongodb}
                                         alt="mongodb" />
                                     <p>MongoDB</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillLaravel}
+                                        alt="laravel" />
+                                    <p>Laravel</p>
+                                </Col>
+                                <Col className="Skill">
+                                    <img
+                                        className="Skill-icon"
+                                        src={imgSkillVuejs}
+                                        alt="vuejs" />
+                                    <p>Vue.js</p>
                                 </Col>
                             </Row>
                         </Container>
